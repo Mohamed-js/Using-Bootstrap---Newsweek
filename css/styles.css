@@ -1,0 +1,52 @@
+* {
+  border: 1px solid red;
+}
+
+* > * {
+  border: 1px solid red;
+}
+
+* > * >* {
+  border: 1px solid red;
+}
+
+div {
+  border: 1px solid red;
+}
+
+.back-red {
+  background-color: red;
+}
+
+.logo {
+  border: 1px solid red;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header1 {
+  line-height: 26px;
+  height: 53px;
+  color: white;
+  border: 1px solid red;
+}
+
+.whitetxt {
+  background-color: #f72210;
+  color: white;
+  border: 1px solid red;
+}
+
+.whitetxt:hover {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  border: 1px solid red;
+  border: 1px solid red;
+}
+
