@@ -1,52 +1,95 @@
-* {
-  border: 1px solid red;
-}
-
-* > * {
-  border: 1px solid red;
-}
-
-* > * >* {
-  border: 1px solid red;
-}
-
-div {
-  border: 1px solid red;
-}
-
+/*
+Colors
+*/
 .back-red {
-  background-color: red;
+  background-color: #f72210;
+}
+
+.back-black{
+  background-color: #000;
+}
+
+.black-text {
+  color: black!important;
+}
+
+.red-text {
+  color:  #f72210;
 }
 
 .logo {
-  border: 1px solid red;
-  width: 100%;
+  width: 25vw;
+  height: 6vw;
+  fill: white;
+  vertical-align: middle;
+}
+
+.sticky-top {
+  height: 7vw;
+}
+
+.imgopinion {
+  width: 63px;
+  height: 63px;
+}
+
+.imgdebate {
+  right: 0;
+  top: -20px;
+  bottom: 10px;
+}
+
+.debateart {
+  border-top: 4px double #eeeded;
+}
+
+.robotocond {
+  font-family: 'Roboto Condensed';
+}
+
+.vsicon {
+  width: 40px;
+  height: 40px;
+  color: #d6d6d6;
+  line-height: 38px;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
 .header1 {
   line-height: 26px;
   height: 53px;
   color: white;
-  border: 1px solid red;
 }
 
-.whitetxt {
-  background-color: #f72210;
-  color: white;
-  border: 1px solid red;
+.topimg {
+  height: 30px;
+  width: 75px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255,.9);
 }
 
-.whitetxt:hover {
-  text-decoration: none;
-  color: white;
+.hover-red:hover {
+  color: red !important;
 }
 
-header {
-  border: 1px solid red;
-  border: 1px solid red;
+.hover-blackunder:hover {
+  text-decoration: underline;
 }
 
+.hover-redunder:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.themaglogo {
+flex: none;
+display: block;
+width: 29px;
+height: 28px;
+background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+margin-right: 10px;
+}
