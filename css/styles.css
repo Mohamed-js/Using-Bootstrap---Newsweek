@@ -5,20 +5,20 @@ Colors
   background-color: #f72210;
 }
 
-.back-black{
+.back-black {
   background-color: #000;
 }
 
 .black-text {
-  color: black!important;
+  color: black !important;
 }
 
-.backf4f5f6{
+.backf4f5f6 {
   background-color: #f4f5f6;
 }
 
 .red-text {
-  color:  #f72210;
+  color: #f72210;
 }
 
 .logo {
@@ -37,6 +37,10 @@ Colors
   height: 63px;
 }
 
+.h33 {
+  height: 33.33% !important;
+}
+
 .imgdebate {
   right: 0;
   top: -20px;
@@ -48,7 +52,7 @@ Colors
 }
 
 .robotocond {
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .sans-serif {
@@ -56,9 +60,19 @@ Colors
   line-height: 25px;
 }
 
+.font-size25 {
+  font-size: 25px;
+}
+
 .editors-pick {
   line-height: 20px;
 }
+
+.lh-50 {
+  line-height: 50px;
+  font-family: Arial, sans-serif;
+}
+
 .vsicon {
   width: 40px;
   height: 40px;
@@ -89,7 +103,12 @@ body {
   width: 75px;
   bottom: 0;
   left: 0;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.senators {
+  line-height: 15px;
+  font-size: 13px;
 }
 
 .hover-red:hover {
@@ -106,14 +125,22 @@ body {
 }
 
 .themaglogo {
-flex: none;
-display: block;
-width: 29px;
-height: 28px;
-background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-margin-right: 10px;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
 }
 
 .second-art {
   height: 70%;
+}
+
+.footerlogo {
+  fill: red;
+}
+
+.w-5 {
+  width: 5%;
 }
