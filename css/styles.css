@@ -51,8 +51,16 @@ Colors
   border-top: 4px double #eeeded;
 }
 
+/*
+Fonts
+*/
+
 .robotocond {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.arial {
+  font-family: Arial, sans-serif;
 }
 
 .sans-serif {
@@ -139,6 +147,7 @@ body {
 
 .footerlogo {
   fill: red;
+  height: 
 }
 
 .w-5 {
