@@ -42,6 +42,10 @@ Colors
   height: 7vw;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .imgopinion {
   width: 63px;
   height: 63px;
@@ -165,16 +169,20 @@ body {
   width: 20%;
 }
 
- .hidden-top {
+.hidden-top {
   height: 20vh;
-} */
+}
+
+.fixed-top {
+  visibility: hidden;
+}
 
 .red-decor {
-  position: absolute;
+  position: absolute !important;
   top: 7vw;
   margin-right: 1.5rem;
   right: 0;
-  width: 2.5vw;
+  width: 5vw;
   height: 1vw;
   z-index: 10;
   border-left: 12px solid white;

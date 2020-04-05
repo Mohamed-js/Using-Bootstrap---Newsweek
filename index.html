@@ -82,10 +82,12 @@
                 class="border-top-0 border-right-0 border-left-0 pl-2 w-50 search"
                 placeholder="Search"/><i class="fas fa-search"></i>
               </li>
-              <div class="back-red cont-red-decor mt-0 mr-4"></div>
+              
             </ul>
+            
         </nav>
-        <nav class="font-weight-bold justify-content-center pb-2 border-bottom position-sticky">
+        <div class="back-red mt-0 mr-4 red-decor"></div>
+        <nav class="font-weight-bold justify-content-center pb-2 fixed-top" id="hidden-nav">
           <div class="text-decoration-none align-items-baseline back-red">
             <div class="d-flex justify-content-between hidden-top w-100">
               <div class="d-flex w-25">
@@ -1351,6 +1353,21 @@
           <div class="pt-2"><a class="text-muted pl-2 pr-2" href="#">Consent preferences</a></div>
         </div>
       </footer>
+      <script>
+        window.onscroll = function () { myFunction() };
+    
+        var hiddennav = document.getElementById("hidden-nav");
+    
+        function myFunction() {
+    
+          if (window.pageYOffset >= 100) {
+            hiddennav.classList.add("visible")
+          }
+          else {
+            hiddennav.classList.remove("visible")
+          }
+        }  
+      </script>
     </main>
 
     <!-- Optional JavaScript -->
