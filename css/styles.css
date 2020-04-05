@@ -1,8 +1,9 @@
 /*
 Colors
 */
+
 .back-red {
-  background-color: #f72210;
+  background-color: #f72210 !important;
 }
 
 .back-black {
@@ -21,10 +22,19 @@ Colors
   color: #f72210;
 }
 
+.fill-white {
+  fill: white;
+}
+
 .logo {
   width: 25vw;
   height: 6vw;
-  fill: white;
+
+  vertical-align: middle;
+}
+
+.logo2 {
+  height: 6vw;
   vertical-align: middle;
 }
 
@@ -92,11 +102,9 @@ body {
   font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
-.header1 {
-  line-height: 26px;
-  height: 53px;
-  color: white;
-}
+/* .search:focus {
+  width: 100%;
+} */
 
 .issue {
   bottom: 20px;
@@ -147,9 +155,28 @@ body {
 
 .footerlogo {
   fill: red;
-  height: 
 }
 
 .w-5 {
   width: 5%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+ .hidden-top {
+  height: 20vh;
+} */
+
+.red-decor {
+  position: absolute;
+  top: 7vw;
+  margin-right: 1.5rem;
+  right: 0;
+  width: 2.5vw;
+  height: 1vw;
+  z-index: 10;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
 }
