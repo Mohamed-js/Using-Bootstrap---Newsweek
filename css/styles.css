@@ -73,7 +73,7 @@ Fonts
 }
 
 .lora {
-  font-family: 'Lora';
+  font-family: 'Lora', sans-serif;
 }
 .arial {
   font-family: Arial, sans-serif;
@@ -154,15 +154,21 @@ body {
 }
 
 .search {
+  z-index: 1;
   top: 0;
   right: 0;
   padding-right: 110px;
   text-align: right;
   padding-left: 0;
+  width: fit-content;
+}
+
+.main-nav-left {
+  
 }
 
 .search input {
-  z-index: 2;
+  z-index: 1;
   width: 60px;
   font-size: 18px;
   border: none;
@@ -171,7 +177,9 @@ body {
 }
 
 .search input:focus {
-  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  width: 87vw;
 }
 
 .searchi {
@@ -204,11 +212,8 @@ body {
   width: 20%;
 }
 
-.w-27 {
-  width: 27%;
-}
-
 .nav-ext {
+  z-index: 1;
   padding-right: 170px;
 }
 
@@ -232,18 +237,19 @@ body {
   width: 10%;
 }
 
-
 /*
 Media queries
 */
 
 @media only screen and (max-width: 991px) {
-  .main-top, .main-nav,
+  .main-top,
+  .main-nav,
   .red-decor {
     display: none;
   }
 
   #hidden-nav {
+    min-width: 368px;
     visibility: visible;
   }
 
