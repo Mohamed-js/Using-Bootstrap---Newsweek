@@ -29,7 +29,6 @@ Colors
 .logo {
   width: 25vw;
   height: 6vw;
-
   vertical-align: middle;
 }
 
@@ -73,6 +72,9 @@ Fonts
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.lora {
+  font-family: 'Lora';
+}
 .arial {
   font-family: Arial, sans-serif;
 }
@@ -106,9 +108,9 @@ body {
   font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
-/* .search:focus {
-  width: 100%;
-} */
+.empty-header {
+  display: none;
+}
 
 .issue {
   bottom: 20px;
@@ -124,6 +126,13 @@ body {
   bottom: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.sponsored-insight {
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 55%;
+  bottom: 0;
 }
 
 .senators {
@@ -142,6 +151,32 @@ body {
 .hover-redunder:hover {
   text-decoration: underline;
   text-decoration-color: red;
+}
+
+.search {
+  top: 0;
+  right: 0;
+  padding-right: 110px;
+  text-align: right;
+  padding-left: 0;
+}
+
+.search input {
+  z-index: 2;
+  width: 60px;
+  font-size: 18px;
+  border: none;
+  color: rgba(0, 0, 0, 0.55);
+  transition: width 0.3s ease;
+}
+
+.search input:focus {
+  width: 100%;
+}
+
+.searchi {
+  top: 17px;
+  right: 6vw;
 }
 
 .themaglogo {
@@ -169,8 +204,12 @@ body {
   width: 20%;
 }
 
-.hidden-top {
-  height: 20vh;
+.w-27 {
+  width: 27%;
+}
+
+.nav-ext {
+  padding-right: 170px;
 }
 
 .fixed-top {
@@ -187,4 +226,28 @@ body {
   z-index: 10;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
+}
+
+.beside {
+  width: 10%;
+}
+
+
+/*
+Media queries
+*/
+
+@media only screen and (max-width: 991px) {
+  .main-top, .main-nav,
+  .red-decor {
+    display: none;
+  }
+
+  #hidden-nav {
+    visibility: visible;
+  }
+
+  header {
+    margin-bottom: 50px;
+  }
 }
