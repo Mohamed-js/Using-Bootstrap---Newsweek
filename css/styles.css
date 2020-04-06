@@ -237,6 +237,14 @@ body {
   width: 10%;
 }
 
+.editors img {
+  width: 100%;
+}
+
+.span1 {
+  width: 70%;
+}
+
 /*
 Media queries
 */
@@ -248,6 +256,10 @@ Media queries
     display: none;
   }
 
+  .editors {
+    margin-top: 4rem;
+  }
+
   #hidden-nav {
     min-width: 368px;
     visibility: visible;
@@ -255,5 +267,27 @@ Media queries
 
   header {
     margin-bottom: 50px;
+  }
+
+  .featured img,
+  .culture img
+  {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .featured img,
+  .culture img
+  {
+    width: 100%;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .editors {
+    margin-top: 1rem;
   }
 }
