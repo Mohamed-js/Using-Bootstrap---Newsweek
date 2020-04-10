@@ -43,7 +43,16 @@ Colors
 
 .logo2 {
   height: 6vw;
+  width: 130px;
   vertical-align: middle;
+}
+
+.w-nowrap {
+  white-space: nowrap;
+}
+
+.min-w-280 {
+  min-width: 280px;
 }
 
 .sticky-top {
