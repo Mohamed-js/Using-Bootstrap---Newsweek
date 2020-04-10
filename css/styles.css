@@ -22,6 +22,15 @@ Colors
   color: #f72210;
 }
 
+.signup-btn {
+  padding: 10px 10px 10px 12px;
+  margin-bottom: 10px;
+}
+
+.main11 .signup-btn:hover {
+  background-color: #de1f0e;
+}
+
 .fill-white {
   fill: white;
 }
@@ -46,7 +55,6 @@ Colors
 }
 
 .imgopinion {
-  width: 63px;
   height: 63px;
 }
 
@@ -75,6 +83,7 @@ Fonts
 .lora {
   font-family: 'Lora', sans-serif;
 }
+
 .arial {
   font-family: Arial, sans-serif;
 }
@@ -112,10 +121,6 @@ body {
   display: none;
 }
 
-.issue {
-  bottom: 20px;
-}
-
 .features {
   height: 30px;
 }
@@ -136,8 +141,13 @@ body {
   background-image: url('https://d.newsweek.com/en/full/1574573/taj-mahal.jpg?w=397&h=265&f=632f8bc314448a5850998fc50f6919f9');
 }
 
-.newsletter-back {
-  background: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5') center center / cover no-repeat;
+#newsletter-img {
+  min-height: 200px;
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .count-link {
@@ -188,10 +198,6 @@ body {
   text-align: right;
   padding-left: 0;
   width: fit-content;
-}
-
-.main-nav-left {
-  
 }
 
 .search input {
@@ -276,49 +282,35 @@ body {
   width: 70%;
 }
 
-/*
-Media queries
-*/
-
-@media only screen and (max-width: 991px) {
-  .main-top,
-  .main-nav,
-  .red-decor {
-    display: none;
-  }
-
-  .editors {
-    margin-top: 4rem;
-  }
-
-  #hidden-nav {
-    min-width: 368px;
-    visibility: visible;
-  }
-
-  header {
-    margin-bottom: 50px;
-  }
-
-  .featured img,
-  .culture img
-  {
-    width: 100%;
-  }
+.top-div {
+  bottom: 0;
+  align-items: flex-start;
 }
 
-@media only screen and (max-width: 768px) {
-  .featured img,
-  .culture img
-  {
-    width: 100%;
-  }
+.featured {
+  position: sticky;
+  bottom: 0;
+  align-self: flex-end;
+}
 
-  .divider {
-    display: none;
-  }
+.magazine-top {
+  top: 12px;
+  left: 80px;
+}
 
-  .editors {
-    margin-top: 1rem;
-  }
+.magazine-boxes {
+  width: 100%;
+  padding-top: 8%;
+  overflow-x: hidden;
+}
+
+.magazines-group {
+  padding-right: 80px;
+  padding-bottom: 10px;
+  margin-right: 35px;
+}
+
+.subscribe-img2 {
+  right: 90px;
+  bottom: 45px;
 }
