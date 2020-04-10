@@ -122,17 +122,44 @@ body {
 
 .topimg {
   height: 30px;
-  width: 75px;
   bottom: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.min-w-200 {
+  min-width: 200px;
+}
+
+.feature-slide-img {
+  border: 1px solid red;
+  background-image: url('https://d.newsweek.com/en/full/1574573/taj-mahal.jpg?w=397&h=265&f=632f8bc314448a5850998fc50f6919f9');
+}
+
+.newsletter-back {
+  background: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5') center center / cover no-repeat;
+}
+
+.count-link {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 22%;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
 }
 
 .sponsored-insight {
   height: 30px;
   background-color: rgba(255, 255, 255, 0.9);
   width: 55%;
-  bottom: 0;
+  bottom: 2px;
 }
 
 .senators {
@@ -192,12 +219,16 @@ body {
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
   margin-right: 10px;
 }
 
 .second-art {
   height: 70%;
+}
+
+.second-art2 {
+  height: 90%;
 }
 
 .footerlogo {
