@@ -238,11 +238,11 @@ body {
 }
 
 .second-art {
-  height: 70%;
+  height: 67%;
 }
 
 .second-art2 {
-  height: 90%;
+  height: 80%;
 }
 
 .footerlogo {
@@ -262,6 +262,17 @@ body {
   padding-right: 170px;
 }
 
+.back-pandemic {
+  font-size: 12px;
+  background-color: #c2d4d7;
+  height: 25px;
+  bottom: 4px;
+}
+
+.back-pandemic:hover {
+  background-color: #272727;
+}
+
 .fixed-top {
   visibility: hidden;
 }
@@ -270,7 +281,7 @@ body {
   position: absolute !important;
   top: 7vw;
   margin-right: 1.5rem;
-  right: 0;
+  right: -9px;
   width: 5vw;
   height: 1vw;
   z-index: 10;
