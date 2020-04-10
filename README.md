@@ -7,19 +7,7 @@ By default, Bootstrap includes several breakpoints. The ones used here are:
 Large (>=992px), Medium (>=768px) and Small (<768px).
 
 The live demo can be found here:
-[Live Demo](https://rawcdn.githack.com/alvarorf/Using-Bootstrap---Newsweek/456a2725fc398eb5df5568972a22badf56254d50/index.html)
-
-And the screenshots are:
-
-## Large size:
-![screenshot](/images/LargeSize.jpeg)
-
-## Medium size:
-![screenshot](/images/MediumSize.jpeg)
-
-## Small size:
-![screenshot](/images/SmallSize.jpeg)
-
+[Live Demo](https://rawcdn.githack.com/alvarorf/Using-Bootstrap---Newsweek/9e4c48f0355cd3b9befb762b10d6b2c00593626b/index.html)
 
 ## Built With
 
@@ -55,3 +43,15 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is for microverse course purposes.
+
+
+## Screenshots:
+
+## Large size:
+![screenshot](/images/LargeSize.jpeg)
+
+## Medium size:
+![screenshot](/images/MediumSize.jpeg)
+
+## Small size:
+![screenshot](/images/SmallSize.jpeg)
