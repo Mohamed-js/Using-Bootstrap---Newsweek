@@ -24,8 +24,18 @@ Media queries
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
   .divider {
     display: none;
+  }
+
+  .reducepad {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .colnewsletter {
@@ -45,5 +55,12 @@ Media queries
 
   .editors {
     margin-top: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
