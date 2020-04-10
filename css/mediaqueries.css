@@ -25,8 +25,8 @@ Media queries
 
 @media only screen and (max-width: 768px) {
   body {
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .divider {
