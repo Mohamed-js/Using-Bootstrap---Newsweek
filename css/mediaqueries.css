@@ -63,4 +63,8 @@ Media queries
     margin-left: 15px;
     margin-right: 15px;
   }
+
+  .border-g-768 {
+    border-left: 1px solid #dee2e6 !important;
+  }
 }
