@@ -7,7 +7,7 @@ By default, Bootstrap includes several breakpoints. The ones used here are:
 Large (>=992px), Medium (>=768px) and Small (<768px).
 
 The live demo can be found here:
-[Live Demo Link]()
+[Live Demo](https://rawcdn.githack.com/alvarorf/Using-Bootstrap---Newsweek/456a2725fc398eb5df5568972a22badf56254d50/index.html)
 
 And the screenshots are:
 
