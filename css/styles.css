@@ -1,8 +1,9 @@
 /*
 Colors
 */
+
 .back-red {
-  background-color: #f72210;
+  background-color: #f72210 !important;
 }
 
 .back-black {
@@ -21,19 +22,48 @@ Colors
   color: #f72210;
 }
 
-.logo {
-  width: 25vw;
-  height: 6vw;
+.signup-btn {
+  padding: 10px 10px 10px 12px;
+  margin-bottom: 10px;
+}
+
+.main11 .signup-btn:hover {
+  background-color: #de1f0e;
+}
+
+.fill-white {
   fill: white;
+}
+
+.logo {
+  width: 395px;
+  height: 6vw;
   vertical-align: middle;
+}
+
+.logo2 {
+  height: 6vw;
+  width: 130px;
+  vertical-align: middle;
+}
+
+.w-nowrap {
+  white-space: nowrap;
+}
+
+.min-w-280 {
+  min-width: 280px;
 }
 
 .sticky-top {
   height: 7vw;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .imgopinion {
-  width: 63px;
   height: 63px;
 }
 
@@ -57,6 +87,10 @@ Fonts
 
 .robotocond {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.lora {
+  font-family: 'Lora', sans-serif;
 }
 
 .arial {
@@ -92,14 +126,8 @@ body {
   font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
-.header1 {
-  line-height: 26px;
-  height: 53px;
-  color: white;
-}
-
-.issue {
-  bottom: 20px;
+.empty-header {
+  display: none;
 }
 
 .features {
@@ -108,10 +136,48 @@ body {
 
 .topimg {
   height: 30px;
-  width: 75px;
   bottom: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.min-w-200 {
+  min-width: 200px;
+}
+
+.feature-slide-img {
+  border: 1px solid red;
+  background-image: url('https://d.newsweek.com/en/full/1574573/taj-mahal.jpg?w=397&h=265&f=632f8bc314448a5850998fc50f6919f9');
+}
+
+#newsletter-img {
+  min-height: 200px;
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.count-link {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 22%;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+.sponsored-insight {
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 2px;
 }
 
 .senators {
@@ -132,24 +198,138 @@ body {
   text-decoration-color: red;
 }
 
+.search {
+  z-index: 1;
+  top: 0;
+  right: 0;
+  padding-right: 110px;
+  text-align: right;
+  padding-left: 0;
+  width: fit-content;
+}
+
+.search input {
+  z-index: 1;
+  width: 60px;
+  font-size: 18px;
+  border: none;
+  color: rgba(0, 0, 0, 0.55);
+  transition: width 0.3s ease;
+}
+
+.search input:focus {
+  outline: none;
+  padding-left: 15px;
+  width: 87vw;
+}
+
+.searchi {
+  top: 17px;
+  right: 6vw;
+}
+
 .themaglogo {
   flex: none;
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
   margin-right: 10px;
 }
 
 .second-art {
-  height: 70%;
+  height: 67%;
+}
+
+.second-art2 {
+  height: 80%;
 }
 
 .footerlogo {
   fill: red;
-  height: 
 }
 
 .w-5 {
   width: 5%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.nav-ext {
+  z-index: 1;
+  padding-right: 170px;
+}
+
+.back-pandemic {
+  font-size: 12px;
+  background-color: #c2d4d7;
+  height: 25px;
+  bottom: 4px;
+}
+
+.back-pandemic:hover {
+  background-color: #272727;
+}
+
+.fixed-top {
+  visibility: hidden;
+}
+
+.red-decor {
+  position: absolute !important;
+  top: 7vw;
+  margin-right: 1.5rem;
+  right: -9px;
+  width: 5vw;
+  height: 1vw;
+  z-index: 10;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.beside {
+  width: 10%;
+}
+
+.editors img {
+  width: 100%;
+}
+
+.span1 {
+  width: 70%;
+}
+
+.top-div {
+  bottom: 0;
+  align-items: flex-start;
+}
+
+.featured {
+  position: sticky;
+  bottom: 0;
+  align-self: flex-end;
+}
+
+.magazine-top {
+  top: 12px;
+  left: 80px;
+}
+
+.magazine-boxes {
+  width: 100%;
+  padding-top: 8%;
+  overflow-x: hidden;
+}
+
+.magazines-group {
+  padding-right: 80px;
+  padding-bottom: 10px;
+  margin-right: 35px;
+}
+
+.subscribe-img2 {
+  right: 90px;
+  bottom: 45px;
 }

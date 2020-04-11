@@ -1,0 +1,78 @@
+/*
+Media queries
+*/
+
+@media only screen and (max-width: 991px) {
+  .main-top,
+  .main-nav,
+  .red-decor {
+    display: none;
+  }
+
+  .editors {
+    margin-top: 2rem;
+  }
+
+  #hidden-nav {
+    min-width: 368px;
+    visibility: visible;
+  }
+
+  header {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .US {
+    margin-top: 50px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .reducepad {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .colnewsletter {
+    flex-wrap: wrap;
+  }
+
+  .magazines-group {
+    margin-bottom: 25px;
+    padding-right: 50px;
+  }
+
+  .newsletter-box,
+  .subscribe-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .editors {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .US {
+    margin-top: 4rem;
+  }
+
+  .border-g-768 {
+    border-left: 1px solid #dee2e6 !important;
+  }
+}

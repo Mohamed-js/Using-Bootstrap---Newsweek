@@ -1,24 +1,21 @@
 # Using Bootstrap: Newsweek Clone
 
-> Welcome to my Newsweek's clone, built html and Bootstrap, a css framework. Please enjoy and leave a comment. 
-The purpose of this exercise is to show the capabilities of the Bootstrap framework and it's advantages, such as website responsiveness out of the box.
+> Welcome to my Newsweek's clone, built html and Bootstrap, a CSS framework. Please enjoy and leave a comment. 
+The purpose of this exercise is to show the capabilities of the Bootstrap framework and its advantages, such as web responsiveness out of the box.
 
-![screenshot](/images/screenshot.jpeg)
+By default, Bootstrap includes several breakpoints. The ones used here are:
+Large (>=992px), Medium (>=768px) and Small (<768px).
 
-Additional description about the project and its features.
+The live demo can be found here:
+[Live Demo](https://rawcdn.githack.com/alvarorf/Using-Bootstrap---Newsweek/9e4c48f0355cd3b9befb762b10d6b2c00593626b/index.html)
 
 ## Built With
 
 - HTML,
 - CSS,
 - Bootstrap
-- Gulp
+- Stylelint
 - Coffee 
-
-## Live Demo
-
-[Live Demo Link]()
-
 
 ### Setup
 
@@ -46,3 +43,15 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is for microverse course purposes.
+
+
+## Screenshots:
+
+## Large size:
+![screenshot](/images/LargeSize.jpeg)
+
+## Medium size:
+![screenshot](/images/MediumSize.jpeg)
+
+## Small size:
+![screenshot](/images/SmallSize.jpeg)
